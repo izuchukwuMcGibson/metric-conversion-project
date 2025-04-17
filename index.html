@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric conversion project</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="metric-conversion-project">
+<div class="input-section">
+    <h1>Metric/Imperial Unit <br> Conversion</h1>
+    <input type="text" id="input">
+    <button id="convert-button">Convert</button>
+    <p id="errorMsg"></p> <!-- Area to show error message -->
+</div>
+   
+        <div class="conversion-results">
+            <div class="conversion-block">
+                <strong>Length (Meter/Feet)</strong><br>
+                <p><span id="metersToFeet">20 meters = 65.616 feet</span></p>
+                <p><span id="feetToMeters">20 feet = 6.096 meters</span></p>
+            </div>
+            <div class="conversion-block">
+                <strong>Volume (Liters/Gallons)</strong><br>
+                <p><span id="litersToGallons">20 liters = 5.284 gallons</span></p>
+                <p><span id="gallonsToLiters">20 gallons = 75.708 liters</span></p>
+            </div>
+            <div class="conversion-block">
+                <strong>Mass (Kilograms/Pounds)</strong><br>
+                <p><span id="kilosToPounds">20 kilos = 44.092 pounds</span></p>
+                <p><span id="poundsToKilos">20 pounds = 9.072 kilos</span></p>
+
+               
+            </div>
+       
+        <p></p>
+    </div>
+</div> 
+</div>  
+</body>
+<script src="index.js"></script>
+</html>
